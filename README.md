@@ -1,15 +1,15 @@
-# Задания по PostgreQSL
+# Задания по PostgreSQL
 
-## Подготовка PostgreQSL и pgAdmin
-Задания представленые ниже, необходимо выполнить на PostgreQSL 14
+## Подготовка PostgreSQL и pgAdmin
+Задания представленые ниже, необходимо выполнить на PostgreSQL 14
 
-Для запуска PostgreQSL + pgAdmin нужно запустить docker-compose
+Для запуска PostgreSQL + pgAdmin нужно запустить docker-compose
 ```shell
 docker-compose -f ./docker-compose.yml
 ```
 ,где `docker-compose.yml` файл конфигурации 
 
-для консольного подключения к PostgreQSL
+для консольного подключения к PostgreSQL
 ```shell
 psql -h localhost -p 15432 -U admin -d mydb
 ```
