@@ -17,8 +17,8 @@ psql -h localhost -p 15432 -U admin -d mydb
 
 для работы через pgAdmin(web-ui) нужно использовать url:  `http://localhost:16543/`
 
-    LOGIN: "admin@admin.com"
-    PASSWORD: "admin"
+    LOGIN: admin@admin.com
+    PASSWORD: admin
 
 ---
 ## Задачи:
